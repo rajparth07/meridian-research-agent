@@ -80,7 +80,18 @@ function SettingsForm({
   const localModel = /localhost|127\.0\.0\.1|11434/.test(draft.baseUrl);
 
   return (
-    <>
+    <form
+      className="contents"
+      onSubmit={(event) => {
+        event.preventDefault();
+        onSave({
+          apiKey: draft.apiKey.trim(),
+          baseUrl: draft.baseUrl.trim(),
+          model: draft.model.trim(),
+        });
+        onOpenChange(false);
+      }}
+    >
         <DialogHeader>
           <DialogTitle>Model connection</DialogTitle>
           <DialogDescription>
@@ -151,20 +162,8 @@ function SettingsForm({
           </p>
         </div>
         <DialogFooter>
-          <Button
-            type="button"
-            onClick={() => {
-              onSave({
-                apiKey: draft.apiKey.trim(),
-                baseUrl: draft.baseUrl.trim(),
-                model: draft.model.trim(),
-              });
-              onOpenChange(false);
-            }}
-          >
-            Save connection
-          </Button>
+          <Button type="submit">Save connection</Button>
         </DialogFooter>
-    </>
+    </form>
   );
 }
