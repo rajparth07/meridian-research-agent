@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f4efe6"/>
+  <rect x="0" y="0" width="1200" height="8" fill="#c4551a"/>
+  <text x="56" y="58" font-family="Georgia, serif" font-size="32" fill="#2a211c">Meridian</text>
+  <text x="56" y="84" font-family="Georgia, serif" font-size="16" fill="#6d6256">Autonomous research agent  how one question becomes a brief</text>
+
+  <g font-family="Georgia, serif" font-size="15" fill="#2a211c">
+    <rect x="56" y="120" width="180" height="72" rx="8" fill="#fffdf8" stroke="#d9d0c2"/>
+    <text x="72" y="150">User question</text>
+    <text x="72" y="172" font-size="12" fill="#6d6256">Any open topic</text>
+
+    <rect x="292" y="120" width="200" height="72" rx="8" fill="#fffdf8" stroke="#d9d0c2"/>
+    <text x="308" y="150">Recall</text>
+    <text x="308" y="172" font-size="12" fill="#6d6256">Earlier briefs in memory</text>
+
+    <rect x="548" y="108" width="250" height="96" rx="8" fill="#3f2c24"/>
+    <text x="564" y="142" fill="#f6f1e7">Plan</text>
+    <text x="564" y="164" font-size="12" fill="#eadfce">LLM chooses sources</text>
+    <text x="564" y="182" font-size="12" fill="#eadfce">and search queries</text>
+
+    <rect x="854" y="120" width="290" height="72" rx="8" fill="#fffdf8" stroke="#d9d0c2"/>
+    <text x="870" y="150">Parallel gather</text>
+    <text x="870" y="172" font-size="12" fill="#6d6256">Only the sources the model picked</text>
+  </g>
+
+  <g stroke="#c4551a" stroke-width="1.5" fill="none">
+    <path d="M236 156 H292"/>
+    <path d="M492 156 H548"/>
+    <path d="M798 156 H854"/>
+  </g>
+
+  <g font-family="Georgia, serif" font-size="13" fill="#2a211c">
+    <rect x="56" y="250" width="150" height="48" rx="6" fill="#fffdf8" stroke="#d9d0c2"/>
+    <text x="72" y="278">Wikipedia</text>
+    <rect x="220" y="250" width="150" height="48" rx="6" fill="#fffdf8" stroke="#d9d0c2"/>
+    <text x="236" y="278">OpenAlex</text>
+    <rect x="384" y="250" width="150" height="48" rx="6" fill="#fffdf8" stroke="#d9d0c2"/>
+    <text x="400" y="278">arXiv</text>
+    <rect x="548" y="250" width="150" height="48" rx="6" fill="#fffdf8" stroke="#d9d0c2"/>
+    <text x="564" y="278">Crossref</text>
+    <rect x="712" y="250" width="150" height="48" rx="6" fill="#fffdf8" stroke="#d9d0c2"/>
+    <text x="728" y="278">Hacker News</text>
+    <rect x="876" y="250" width="130" height="48" rx="6" fill="#fffdf8" stroke="#d9d0c2"/>
+    <text x="892" y="278">Web</text>
+    <rect x="1020" y="250" width="124" height="48" rx="6" fill="#fffdf8" stroke="#d9d0c2"/>
+    <text x="1036" y="278">MDN</text>
+  </g>
+
+  <path d="M999 192 V230" stroke="#c4551a" stroke-width="1.5" fill="none"/>
+  <path d="M131 230 V250 M295 230 V250 M459 230 V250 M623 230 V250 M787 230 V250 M941 230 V250 M1082 230 V250" stroke="#d9d0c2" stroke-width="1" fill="none"/>
+  <path d="M131 230 H1082" stroke="#d9d0c2" stroke-width="1" fill="none"/>
+
+  <g font-family="Georgia, serif" font-size="15" fill="#2a211c">
+    <rect x="56" y="350" width="250" height="88" rx="8" fill="#fffdf8" stroke="#d9d0c2"/>
+    <text x="72" y="382">Read</text>
+    <text x="72" y="406" font-size="12" fill="#6d6256">LLM extracts claims. A claim</text>
+    <text x="72" y="422" font-size="12" fill="#6d6256">must quote the page.</text>
+
+    <rect x="356" y="350" width="250" height="88" rx="8" fill="#fffdf8" stroke="#d9d0c2"/>
+    <text x="372" y="382">Distill</text>
+    <text x="372" y="406" font-size="12" fill="#6d6256">LLM merges duplicates and</text>
+    <text x="372" y="422" font-size="12" fill="#6d6256">drops off-topic claims.</text>
+
+    <rect x="656" y="350" width="250" height="88" rx="8" fill="#3f2c24"/>
+    <text x="672" y="382" fill="#f6f1e7">Brief</text>
+    <text x="672" y="406" font-size="12" fill="#eadfce">Key points, findings,</text>
+    <text x="672" y="422" font-size="12" fill="#eadfce">actions, cited sources.</text>
+
+    <rect x="956" y="350" width="188" height="88" rx="8" fill="#fffdf8" stroke="#d9d0c2"/>
+    <text x="972" y="382">Deliver</text>
+    <text x="972" y="406" font-size="12" fill="#6d6256">Markdown, PDF,</text>
+    <text x="972" y="422" font-size="12" fill="#6d6256">and the trace.</text>
+  </g>
+
+  <g stroke="#c4551a" stroke-width="1.5" fill="none">
+    <path d="M306 394 H356"/>
+    <path d="M606 394 H656"/>
+    <path d="M906 394 H956"/>
+  </g>
+
+  <rect x="56" y="480" width="1088" height="180" rx="8" fill="#fffdf8" stroke="#d9d0c2"/>
+  <text x="76" y="512" font-family="Georgia, serif" font-size="16" fill="#2a211c">What is checked in code, and what is left to the model</text>
+  <text x="76" y="544" font-family="Georgia, serif" font-size="14" fill="#4d453c">The model selects sources, writes queries, extracts claims, merges duplicates, and composes the brief.</text>
+  <text x="76" y="568" font-family="Georgia, serif" font-size="14" fill="#4d453c">Code rejects private URLs, drops repeated links, and deletes any citation or quote that is not in the fetched text.</text>
+  <text x="76" y="592" font-family="Georgia, serif" font-size="14" fill="#4d453c">Finished briefs are stored locally. The planner may reuse one only when it says the topics overlap.</text>
+  <text x="76" y="628" font-family="Georgia, serif" font-size="14" fill="#6d6256">No canned summary is returned. If the model key is missing, or no grounded claim survives, the run stops with an error.</text>
+</svg>

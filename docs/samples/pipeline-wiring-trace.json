@@ -1,0 +1,124 @@
+{
+  "label": "SYNTHETIC. Stub model. Not a research brief and not for the monitoring assessment.",
+  "events": [
+    {
+      "type": "status",
+      "message": "Checking memory for overlapping briefs.",
+      "at": "2026-09-27T15:02:21.830Z"
+    },
+    {
+      "type": "status",
+      "message": "Asking the model which sources fit this question.",
+      "at": "2026-09-27T15:02:21.830Z"
+    },
+    {
+      "type": "plan",
+      "plan": {
+        "refinedQuestion": "What is a widget?",
+        "whyTheseSources": "Stub planner for the wiring trace. This is not a research result.",
+        "memoryIdsToReuse": [],
+        "tasks": [
+          {
+            "source": "wikipedia",
+            "query": "widget",
+            "purpose": "Exercise the gather hook."
+          }
+        ]
+      },
+      "at": "2026-09-27T15:02:21.830Z"
+    },
+    {
+      "type": "status",
+      "message": "Gathering from the selected sources in parallel.",
+      "at": "2026-09-27T15:02:21.830Z"
+    },
+    {
+      "type": "documents",
+      "count": 1,
+      "droppedDuplicates": 0,
+      "at": "2026-09-27T15:02:21.831Z"
+    },
+    {
+      "type": "status",
+      "message": "Reading 1 document and keeping only grounded claims.",
+      "at": "2026-09-27T15:02:21.831Z"
+    },
+    {
+      "type": "status",
+      "message": "Reading d1: Widget",
+      "at": "2026-09-27T15:02:21.831Z"
+    },
+    {
+      "type": "read_done",
+      "claims": 1,
+      "at": "2026-09-27T15:02:21.831Z"
+    },
+    {
+      "type": "status",
+      "message": "Merging duplicate claims and dropping what does not answer the question.",
+      "at": "2026-09-27T15:02:21.831Z"
+    },
+    {
+      "type": "distill_done",
+      "before": 1,
+      "after": 1,
+      "at": "2026-09-27T15:02:21.831Z"
+    },
+    {
+      "type": "status",
+      "message": "Writing the brief from the distilled claims.",
+      "at": "2026-09-27T15:02:21.831Z"
+    },
+    {
+      "type": "brief",
+      "brief": {
+        "title": "Wiring trace only",
+        "overview": "This brief was produced by a stub model to show the event shape. It is not research.",
+        "keyPoints": [
+          {
+            "text": "A widget is a small mechanical device.",
+            "sourceIds": [
+              "d1"
+            ]
+          }
+        ],
+        "findings": [
+          {
+            "heading": "Definition",
+            "detail": "Stub finding.",
+            "sourceIds": [
+              "d1"
+            ]
+          }
+        ],
+        "actionableInsights": [
+          {
+            "text": "Do not submit this file as a real research brief.",
+            "sourceIds": [
+              "d1"
+            ]
+          }
+        ],
+        "gaps": [
+          "Stub model."
+        ],
+        "confidence": "low",
+        "references": [
+          {
+            "id": "d1",
+            "title": "Widget",
+            "url": "https://en.wikipedia.org/wiki/Widget",
+            "source": "wikipedia",
+            "cited": true
+          }
+        ]
+      },
+      "at": "2026-09-27T15:02:21.831Z"
+    },
+    {
+      "type": "saved",
+      "id": "dae692e0-d3f1-4fcb-81f3-cc596fceed1e",
+      "at": "2026-09-27T15:02:21.831Z"
+    }
+  ]
+}

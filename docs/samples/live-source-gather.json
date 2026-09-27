@@ -1,0 +1,163 @@
+{
+  "label": "Live source gather. This file is retrieval evidence, not a model-written brief.",
+  "query": "retrieval augmented generation",
+  "generatedAt": "2026-09-27T15:02:21.829Z",
+  "note": "A full research transcript, including the model plan and brief, is downloaded from a finished run as Trace JSON.",
+  "sources": [
+    {
+      "source": "wikipedia",
+      "ok": true,
+      "count": 3,
+      "documents": [
+        {
+          "title": "Retrieval-augmented generation",
+          "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+          "excerpt": "Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources. With RAG, LLMs first refer to a specified set of documents, then respond to user queries. These documents supplement information from the LLM's pre-existing training data. This allows LLMs to use domain-specific and/or updated information that is not available in the training data. For example, this enables LLM-based chatbots to access internal company data or generate responses based on authoritative sources. The technique was first proposed in 2020 and has since become a widely adopted approach in modern AI systems. RAG improv"
+        },
+        {
+          "title": "Vector database",
+          "url": "https://en.wikipedia.org/wiki/Vector_database",
+          "excerpt": "A vector database, vector store or vector search engine is a database that stores and retrieves embeddings of data in vector space. Vector databases typically implement approximate nearest neighbor algorithms so users can search for records semantically similar to a given input, unlike traditional databases which primarily look up records by exact match. Use-cases for vector databases include similarity search, semantic search, multi-modal search, recommendations engines, object detection, and retrieval-augmented generation (RAG). Vector embeddings are mathematical representations of data in a high-dimensional space. In this space, each dimension corresponds to a feature of the data, with th"
+        },
+        {
+          "title": "Prompt engineering",
+          "url": "https://en.wikipedia.org/wiki/Prompt_engineering",
+          "excerpt": "Prompt engineering is the process of structuring natural language inputs (known as prompts) to produce specified outputs from a generative AI model. Context engineering is the related area of software engineering that focuses on the management of non-prompt and prompt contexts supplied to the GenAI model, such as system instructions, metadata, API tools and tokens. It can also be defined as the practice of designing and refining input instructions given to a generative AI model to produce more accurate, relevant, or useful outputs. Effective prompt engineering involves understanding how a model interprets language, and may include techniques such as few-shot prompting, chain-of-thought promp"
+        }
+      ]
+    },
+    {
+      "source": "openalex",
+      "ok": true,
+      "count": 3,
+      "documents": [
+        {
+          "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+          "url": "https://doi.org/10.48550/arxiv.2312.10997",
+          "published": "2023",
+          "authors": [
+            "Yunfan Gao",
+            "Yun Xiong",
+            "Xinyu Gao",
+            "Kangxiang Jia",
+            "Jinliu Pan",
+            "Yuxi Bi",
+            "Yi Qi Dai",
+            "Jiawei Sun"
+          ],
+          "excerpt": "Large Language Models (LLMs) showcase impressive capabilities but encounter challenges like hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by incorporating knowledge from external databases. This enhances the accuracy and credibility of the generation, particularly for knowledge-intensive tasks, and allows for continuous knowledge updates and integration of domain-specific information. RAG synergistically merges LLMs' intrinsic knowledge with the vast, dynamic repositories of external databases. This comprehensive review paper offers a detailed examination of the progression of "
+        },
+        {
+          "title": "Active Retrieval Augmented Generation",
+          "url": "https://doi.org/10.18653/v1/2023.emnlp-main.495",
+          "published": "2023",
+          "authors": [
+            "Zhengbao Jiang",
+            "Frank F. Xu",
+            "Luyu Gao",
+            "Zhiqing Sun",
+            "Qian Liu",
+            "Jane Dwivedi-Yu",
+            "Yiming Yang",
+            "Jamie Callan"
+          ],
+          "excerpt": "Zhengbao Jiang, Frank Xu, Luyu Gao, Zhiqing Sun, Qian Liu, Jane Dwivedi-Yu, Yiming Yang, Jamie Callan, Graham Neubig. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. 2023. Authors: Zhengbao Jiang, Frank F. Xu, Luyu Gao, Zhiqing Sun, Qian Liu, Jane Dwivedi-Yu, Yiming Yang, Jamie Callan."
+        },
+        {
+          "title": "RAGAs: Automated Evaluation of Retrieval Augmented Generation",
+          "url": "https://doi.org/10.18653/v1/2024.eacl-demo.16",
+          "published": "2024",
+          "authors": [
+            "Shahul Es",
+            "Jithin James",
+            "Luis Espinosa-Anke",
+            "Steven Schockaert"
+          ],
+          "excerpt": "Shahul Es, Jithin James, Luis Espinosa Anke, Steven Schockaert. Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations. 2024. Authors: Shahul Es, Jithin James, Luis Espinosa-Anke, Steven Schockaert."
+        }
+      ]
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 3,
+      "documents": [
+        {
+          "title": "AR-RAG: Autoregressive Retrieval Augmentation for Image Generation",
+          "url": "http://arxiv.org/abs/2506.06962v3",
+          "published": "2025-06-08",
+          "authors": [
+            "Jingyuan Qi",
+            "Zhiyang Xu",
+            "Qifan Wang",
+            "Lifu Huang"
+          ],
+          "excerpt": "We introduce Autoregressive Retrieval Augmentation (AR-RAG), a novel paradigm that enhances image generation by autoregressively incorporating knearest neighbor retrievals at the patch level. Unlike prior methods that perform a single, static retrieval before generation and condition the entire generation on fixed reference images, AR-RAG performs context-aware retrievals at each generation step, using prior-generated patches as queries to retrieve and incorporate the most relevant patch-level visual references, enabling the model to respond to evolving generation needs while avoiding limitations (e.g., over-copying, stylistic bias, etc.) prevalent in existing methods. To realize AR-RAG, we "
+        },
+        {
+          "title": "Intelligent Interaction Strategies for Context-Aware Cognitive Augmentation",
+          "url": "http://arxiv.org/abs/2504.13684v1",
+          "published": "2025-04-18",
+          "authors": [
+            "Xiangrong",
+            "Zhu",
+            "Yuan Xu",
+            "Tianjian Liu",
+            "Jingwei Sun",
+            "Yu Zhang",
+            "Xin Tong"
+          ],
+          "excerpt": "Human cognition is constrained by processing limitations, leading to cognitive overload and inefficiencies in knowledge synthesis and decision-making. Large Language Models (LLMs) present an opportunity for cognitive augmentation, but their current reactive nature limits their real-world applicability. This position paper explores the potential of context-aware cognitive augmentation, where LLMs dynamically adapt to users' cognitive states and task environments to provide appropriate support. Through a think-aloud study in an exhibition setting, we examine how individuals interact with multi-modal information and identify key cognitive challenges in structuring, retrieving, and applying know"
+        },
+        {
+          "title": "Factually: Exploring Wearable Fact-Checking for Augmented Truth Discernment",
+          "url": "http://arxiv.org/abs/2504.17204v1",
+          "published": "2025-04-24",
+          "authors": [
+            "Chitralekha Gupta",
+            "Hanjun Wu",
+            "Praveen Sasikumar",
+            "Shreyas Sridhar",
+            "Priambudi Bagaskara",
+            "Suranga Nanayakkara"
+          ],
+          "excerpt": "Wearable devices are transforming human capabilities by seamlessly augmenting cognitive functions. In this position paper, we propose a voice-based, interactive learning companion designed to amplify and extend cognitive abilities through informal learning. Our vision is threefold: (1) to enable users to discover new knowledge on-the-go through contextual interactive quizzes, fostering critical thinking and mindfulness, (2) to proactively detect misinformation, empowering users to critically assess information in real time, and (3) to provide spoken language correction and prompting hints for second language learning and effective communication. As an initial step toward this vision, we pres"
+        }
+      ]
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 3,
+      "documents": [
+        {
+          "title": "How do domain-specific chatbots work? A retrieval augmented generation overview",
+          "url": "https://news.ycombinator.com/item?id=37261198",
+          "published": "2023-08-25",
+          "authors": [
+            "czue"
+          ],
+          "excerpt": "Linked page: https://scriv.ai/guides/retrieval-augmented-generation-overview/. Posted by czue. Comments: Hello, author here. I wrote this guide up after spending a long time trying to wrap my head around LangChain and the associated ecosystem, and hope others find it useful. Would be happy to answer any questions or feedback anyone has. Relatedly, to have a useful chatbot you need to track chat history in a way very similar to augmenting with document retrieval, but you may need to generate embeddings and summaries as you go. A friend of mine is working on an OSS memory system for chat apps that helps store, retrieve, summarize chat history, and documents to now, I believe, on top of LangCha"
+        },
+        {
+          "title": "Retrieval Augmented Generation Based on SQLite",
+          "url": "https://news.ycombinator.com/item?id=44364216",
+          "published": "2025-06-24",
+          "authors": [
+            "emzo"
+          ],
+          "excerpt": "Linked page: https://github.com/ggozad/haiku.rag. Posted by emzo. Comments: This looks cool, and I'm interested in these keywords, but I read the entire readme and I'm still unsure what problem it's actually solving. Anyone want to help out? Sqlite has an embedding search? Or is that being provided by this tool? This and SQLite-vec (or whatever extension is trendy these days) can do a lot in a very limited amount of compute. Would love to see a system that blends cheap lexical (Fulltext Search) or semantic/vector search using SQLite and chooses the best approach given the input."
+        },
+        {
+          "title": "Retrieval Augmented Generation for New Orleans City Council Transparency",
+          "url": "https://news.ycombinator.com/item?id=38856980",
+          "published": "2024-01-03",
+          "authors": [
+            "yhvstnpst"
+          ],
+          "excerpt": "Linked page: https://eyeonsurveillance.org/blog/rag-for-new-orleans-city-council-transparency. Posted by yhvstnpst. Comments: Interesting idea for making public meetings more accessible to the public. I know 3pm on a random weekday doesn't work for most citizens and yet... that's when it feels like many council meetings are. Side note: Spotting a bit of lorem ipsum on the site which seems odd. The basic use case here of making videos and transcripts more accessible is super valuable. Are LLMs better than full text search though? > Despite targeted outreach, we've noticed that community members are not returning to use the tool after their initial interaction. There has been minimal engagemen"
+        }
+      ]
+    }
+  ]
+}
