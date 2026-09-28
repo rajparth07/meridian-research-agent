@@ -2,7 +2,7 @@
   <rect width="1200" height="720" fill="#f4efe6"/>
   <rect x="0" y="0" width="1200" height="8" fill="#c4551a"/>
   <text x="56" y="58" font-family="Georgia, serif" font-size="32" fill="#2a211c">Meridian</text>
-  <text x="56" y="84" font-family="Georgia, serif" font-size="16" fill="#6d6256">Autonomous research agent  how one question becomes a brief</text>
+  <text x="56" y="84" font-family="Georgia, serif" font-size="16" fill="#6d6256">Autonomous research agent — how one question becomes a brief</text>
 
   <g font-family="Georgia, serif" font-size="15" fill="#2a211c">
     <rect x="56" y="120" width="180" height="72" rx="8" fill="#fffdf8" stroke="#d9d0c2"/>
